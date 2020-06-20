@@ -20,6 +20,7 @@ public class ExampleInstrumentedTest {
     @Test
     public void useAppContext() {
         // Context of the app under test.
+        //that is taking continously
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("com.njsg.darkmode6", appContext.getPackageName());
     }
